@@ -1,12 +1,10 @@
 <script setup>
-import { RouterView } from 'vue-router';
-import ProductList from '../components/ProductList.vue';
+import Products from './Products.vue';
 
 </script>
 
 <template>
-  <RouterView/>
- <ProductList/>
+  <Products/>
 </template>
 
 <style>
